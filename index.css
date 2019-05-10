@@ -1,0 +1,114 @@
+   @import url('https://fonts.googleapis.com/css?family=Lobster');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Lobster", cursive; 
+    }
+
+    body {
+        background-color: #98C1BC;
+        box-sizing: content-box;
+    }
+
+    #description {
+        text-align: center;
+    }
+
+    #content {
+        padding-bottom: 15px;
+    }
+    .button {
+        width: 50px;
+        height: 25px;
+        border-radius: 10px;
+        margin: auto;
+        display: block;
+        background-color: lightcyan;
+        box-shadow:  0px 2px 10px grey;
+    }
+    h1 {
+        text-align: center;
+        padding: 15px 0px;
+        font-size: 2.5em;
+    }
+    #array {
+        background-color: #e1e1e1;
+        width: 60%;
+        margin: auto;
+        border-radius: 15px;
+    }
+    
+    #row {
+        margin: 1em;
+    }
+    #label {
+        display: inline-block;
+        text-align: right;
+        width: 45%;
+        vertical-align: top;
+    }
+    #inputfield {
+        width: 45%;
+        display: inline-block;
+        padding-left:15px;
+        vertical-align: bottom;
+    }
+    select {
+        width: 171.2px;
+    }
+    input[type="text"] {
+        width: 167.2px;
+    }
+    input[type="number"] {
+        width: 167.2px;
+    }
+        input[type="email"] {
+            width: 167.2px;
+        }
+
+    @media (max-width: 575px) {
+        body {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+14,1e5799+14,2989d8+36,2989d8+36,207cca+44,1e5799+72 */
+            background: #1e5799;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #1e5799 14%, #1e5799 14%, #2989d8 36%, #2989d8 36%, #207cca 44%, #1e5799 72%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #1e5799 14%, #1e5799 14%, #2989d8 36%, #2989d8 36%, #207cca 44%, #1e5799 72%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #1e5799 14%, #1e5799 14%, #2989d8 36%, #2989d8 36%, #207cca 44%, #1e5799 72%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#1e5799', GradientType=1);
+            /* IE6-9 */
+        }
+        #array {
+            width: 80%;
+            font-size: 1em;
+            background:
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,fdffff+0,e1ffff+5,e1ffff+12,e6f8fd+30,c8eefb+63,bee4f8+81,b1d8f5+98 */
+            background: #e1ffff;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #e1ffff 0%, #fdffff 0%, #e1ffff 5%, #e1ffff 12%, #e6f8fd 30%, #c8eefb 63%, #bee4f8 81%, #b1d8f5 98%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #e1ffff 0%, #fdffff 0%, #e1ffff 5%, #e1ffff 12%, #e6f8fd 30%, #c8eefb 63%, #bee4f8 81%, #b1d8f5 98%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #e1ffff 0%, #fdffff 0%, #e1ffff 5%, #e1ffff 12%, #e6f8fd 30%, #c8eefb 63%, #bee4f8 81%, #b1d8f5 98%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1ffff', endColorstr='#b1d8f5', GradientType=1);
+            /* IE6-9 */
+        }
+        
+        #label {
+            width: 80%;
+            display: block;
+            text-align: left;
+            margin: auto;
+        }
+        #inputfield {
+            width: 80%;
+            display: block;
+            padding: 5px 0px;
+            margin: auto;
+        }
+
+    }
